@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['can', 'carton', 'milk_bottle', 'water_bottle']
+
+roboflow:
+  workspace: prueba-ggbr7
+  project: fridge-outp6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prueba-ggbr7/fridge-outp6/dataset/1
